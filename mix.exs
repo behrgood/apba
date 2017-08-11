@@ -33,6 +33,10 @@ defmodule Apba.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:react_phoenix, "~> 0.4.3"},
+     {:httpoison, "~> 0.11.1"},
+     {:poison, "~> 2.2", override: true},
+   ]
   end
 end

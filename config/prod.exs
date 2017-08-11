@@ -15,7 +15,7 @@ config :apba, Apba.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [
     scheme: "https",
-    host: "shrouded-journey-97499.herokuapp.com",
+    host: "ambassadorpitbulls.herokuapp.com",
     port: 443
   ],
   force_ssl: [
